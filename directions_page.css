@@ -1,0 +1,115 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	background-color: #202020;
+	display: flex;
+	overflow-x: hidden;
+}
+
+.hide {
+	visibility: hidden;
+}
+
+.opaque {
+	opacity: 0.5;
+}
+
+.max-img {
+	max-height: 95%;
+	max-width: 95%;
+}
+
+.max-width {
+	max-height: 95%;
+	max-width: 95%;
+}
+
+.near-max-img {
+	max-height: 85%;
+	max-width: 85%;
+}
+
+.mid-img {
+	height: 50%;
+}
+
+/* StackOverflow about centering using Flexbox = https://stackoverflow.com/questions/25311541/how-to-vertically-align-text-inside-a-flexbox */
+.center-content {
+	align-items: center;
+	justify-content: center;
+}
+
+img:hover {
+	cursor: no-pointer;
+}
+
+.one-thirds-col {
+	display: flex;
+	height: 100%;
+	width: calc(100%/3);
+}
+.half-col {
+	height: 100%;
+	width: 50%;
+	display: flex;
+}
+
+.two-thirds-col {
+	display: flex;
+	height: 100%;
+	width: calc(100%/3*2);
+}
+
+.one-thirds-row {
+	display: flex;
+	height: calc(100%/3);
+	width: 100%;
+}
+
+.half-row {
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+
+.two-thirds-row {
+	display: flex;
+	height: calc(100%/3*2);
+	width: 100%;
+}
+
+.large-text {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 100pt;
+	height: 100%;
+	display: flex;
+}
+
+.medium-text {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 35pt;
+	font-weight: bold;
+	color: white;
+	display: flex;
+}
+
+.rockets-red {
+	background-color: #CE1141;
+}
+
+.rockets-dark-red {
+	background-color: #B90F3A;
+}
+
+.rockets-black {
+	background-color: #202020;
+}
+
+.block {
+	display: block;
+}
+
+.none {
+	display: none;
+}
